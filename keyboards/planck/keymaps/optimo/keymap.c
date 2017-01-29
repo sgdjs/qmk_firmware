@@ -108,9 +108,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_ADJUST] = {
-  {RESET, KC_HOME,   _______, MU_ON, MU_OFF, _______, _______, _______, _______, _______, _______, KC_DEL},
+  {RESET,   KC_HOME, _______, MU_ON,   MU_OFF,  _______, _______, _______, _______, _______, _______, KC_DEL},
   {_______, _______, _______, AU_ON,   AU_OFF,  AG_NORM, AG_SWAP, QWERTY,  COLEMAK, DVORAK,  PLOVER,  _______},
-  {BACKLIT, MUV_DE,  MUV_IN,  KC_VOLD,   KC_VOLU,  MI_ON,   MI_OFF,  _______, _______, _______, _______, _______},
+  {BACKLIT, MUV_DE,  MUV_IN,  KC_VOLD, KC_VOLU, MI_ON,   MI_OFF,  _______, _______, _______, _______, _______},
   {_______, KC_MPLY, KC_MNXT, _______, _______, _______, _______, _______, _______, _______, _______, _______}
 },
 
