@@ -98,7 +98,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Adjust (Lower + Raise)
  * ,-----------------------------------------------------------------------------------.
- * |      | Reset|      |      |      |      |      |      |      |      |      |  Del |
+ * |Reset |      |      |      |      |      |      |      |      |      |      |  Del |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * |      |      |      |Aud on|Audoff|AGnorm|AGswap|Qwerty|Colemk|Dvorak|Plover|      |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
@@ -108,10 +108,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_ADJUST] = {
-  {RESET,   KC_HOME, _______, MU_ON,   MU_OFF,  _______, _______, _______, _______, _______, _______, KC_DEL},
-  {_______, _______, _______, AU_ON,   AU_OFF,  AG_NORM, AG_SWAP, QWERTY,  COLEMAK, DVORAK,  PLOVER,  _______},
-  {BACKLIT, MUV_DE,  MUV_IN,  KC_VOLD, KC_VOLU, MI_ON,   MI_OFF,  _______, _______, _______, _______, _______},
-  {_______, KC_MPLY, KC_MNXT, _______, _______, _______, _______, _______, _______, _______, _______, _______}
+   {RESET,  KC_HOME, KC_UP,   KC_END,  MU_ON,   MU_OFF,  AU_ON,   KC_9,    KC_8 ,   KC_AMPR, KC_ASTR, KC_LPRN},
+  {_______, KC_LEFT, KC_DOWN, KC_RGHT, AG_NORM, AG_SWAP, AU_OFF,  KC_0,    KC_7,    KC_DLR,  KC_PERC, KC_CIRC},
+  {BACKLIT, MUV_DE,  MUV_IN,  KC_VOLD, KC_VOLU, MI_ON,   MI_OFF,  KC_EQL,  KC_MINS, KC_EXLM, KC_AT,   KC_HASH},
+  {_______, KC_MPLY, KC_MNXT, _______, _______, _______, _______, _______, _______, KC_RPRN, _______, _______}
 },
 
 /* Colemak
