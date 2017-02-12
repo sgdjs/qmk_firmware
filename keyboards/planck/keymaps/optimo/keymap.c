@@ -108,9 +108,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_ADJUST] = {
-   {RESET,  KC_HOME, KC_UP,   KC_END,  MU_ON,   MU_OFF,  AU_ON,   KC_PSLS, KC_P7,   KC_P8,   KC_P9,   KC_PAST},
-  {_______, KC_LEFT, KC_DOWN, KC_RGHT, AG_NORM, AG_SWAP, AU_OFF,  _______, KC_P4,   KC_P5,   KC_P6,   KC_PMNS},
-  {BACKLIT, MUV_DE,  MUV_IN,  KC_VOLD, KC_VOLU, MI_ON,   MI_OFF,  _______, KC_P1,   KC_P2,   KC_P3,   KC_PPLS},
+  {_______, KC_HOME, KC_UP,   KC_END,  _______, MU_ON,   MU_OFF,  KC_PSLS, KC_P7,   KC_P8,   KC_P9,   _______},
+  {_______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, _______,  KC_PAST, KC_P4,   KC_P5,   KC_P6,  KC_PMNS},
+  {_______, _______, _______, KC_VOLD, KC_VOLU, _______, _______, _______, KC_P1,   KC_P2,   KC_P3,   KC_PPLS},
   {_______, KC_MPLY, KC_MNXT, _______, _______, _______, _______, _______, _______, KC_P0,   KC_PDOT, KC_PENT}
 },
 
